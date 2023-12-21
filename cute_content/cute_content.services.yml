@@ -1,0 +1,4 @@
+services:
+  cute_content.content:
+    class: Drupal\cute_content\ContentService
+    arguments: [ '@current_user', '@entity_type.manager' ]

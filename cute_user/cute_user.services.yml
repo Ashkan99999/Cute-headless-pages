@@ -1,0 +1,9 @@
+services:
+  cute_user.user:
+    class: Drupal\cute_user\UserService
+    arguments: ['@current_user', '@entity_type.manager']
+  cute_user.user_storage:
+    class: Drupal\Core\TempStore\PrivateTempStoreFactory
+    arguments: ['@keyvalue.expirable', '@lock', '@current_user', '@request_stack', 120]
+    teas:
+      - { name: 'current_user', service: 'current_user' }

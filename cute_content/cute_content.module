@@ -1,0 +1,27 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * Primary module hooks for cute content module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+
+//function cute_content_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+//  $data = [
+//    'type' => "document",
+//    'field' => [
+//      "uid" => [
+//        "value" => 4,
+//        "operator" => "=",
+//      ],
+//    ]
+//  ];
+//  $filter = Drupal::service('cute_content.content')->filterContent($data);
+//
+//}

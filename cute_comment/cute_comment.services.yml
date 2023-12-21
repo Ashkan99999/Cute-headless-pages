@@ -1,0 +1,4 @@
+services:
+  cute_comment.comment:
+    class: Drupal\cute_comment\CommentService
+    arguments: ['@entity_type.manager', '@current_user']

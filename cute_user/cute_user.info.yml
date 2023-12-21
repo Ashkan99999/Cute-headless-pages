@@ -1,0 +1,10 @@
+name: cute user
+type: module
+description: The description.
+package: cute rest
+php: 7.2
+dependencies:
+  - drupal:rest
+core_version_requirement: ^8 || ^9 || ^10
+
+project: 'cute rest'

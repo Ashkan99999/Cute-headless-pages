@@ -1,0 +1,4 @@
+services:
+  cute_paragraphs.paragraphs:
+    class: Drupal\cute_paragraphs\ParagraphsService
+    arguments: ['@entity_type.manager', '@current_user']

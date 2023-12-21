@@ -1,0 +1,9 @@
+services:
+  cute_file.file:
+    class: Drupal\cute_file\CuteFileService
+    arguments: [
+      '@file_system',
+      '@file_url_generator',
+      '@entity_type.manager',
+      '@current_user'
+    ]

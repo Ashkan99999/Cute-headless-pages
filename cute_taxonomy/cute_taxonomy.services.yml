@@ -1,0 +1,4 @@
+services:
+  cute_taxonomy.taxonomy:
+    class: Drupal\cute_taxonomy\taxonomy\TaxonomyService
+    arguments: [ '@current_user', '@entity_type.manager' ]

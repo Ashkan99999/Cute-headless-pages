@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for cute taxonomy module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+
+function cute_rest_form_alter(&$form, &$form_state, $form_id) {
+//  $deta =[
+//    "vid" => "organizm",
+//    "name" => "test",
+//    "parent" => ["34"]
+//  ];
+//  $rest = Drupal::service('cute_taxonomy.taxonomy')->createTerm($deta);
+//  dump($rest);
+}
+

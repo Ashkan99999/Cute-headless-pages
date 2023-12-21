@@ -1,0 +1,6 @@
+services:
+  cute_headless.event_subscriber:
+    class: Drupal\cute_headless\EventSubscriber\CuteHeadlessSubscriber
+    arguments: ['@current_route_match', '@current_user']
+    tags:
+      - { name: event_subscriber }
